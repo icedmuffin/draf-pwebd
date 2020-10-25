@@ -15,6 +15,12 @@ h1,h3{
 
 	color:white;
 }
+a.biru{
+	color:navy ;
+}
+navbiru{
+	background-color: navy;
+}
 </style>
 </head>
 <body>
@@ -22,7 +28,7 @@ h1,h3{
 <div class="container">
 	<!--kotak kepala-->
 
-    <div 	class="jumbotron text-center jumbotron-fluid" 
+    <div 	class="jumbotron text-center" 
             		style=" background-image:url(pic/header.png);  background-size: cover;margin-bottom:0" >
   		
   		<h1 >Profile Ku</h1>
@@ -35,18 +41,18 @@ h1,h3{
 	
 
 <!--kotak navbar hehe-->  
-	<nav class="navbar navbar-expand-sm bg-light navbar-light" style="margin-bottom : 10px;">
+	<nav class="navbar navbar-expand-sm " style="margin-bottom : 10px; ">
   		
-        <ul class="navbar-nav">
+        <ul class="navbar-nav navbiru">
 			
 			<li class="nav-item active">
-     			 <b><a class="nav-link" style="color:orange;" href="#">Active</a></b>
+     			 <b><a class="nav-link biru"  href="link/05211940000104_5.html">Active</a></b>
     		</li>
    			<li class="nav-item">
-				<b><a class="nav-link oren" style="color:orange;" href="#">Link</a></b>
+				<b><a class="nav-link oren biru" href="#">Link</a></b>
     		</li>
     		<li class="nav-item">
-				<b><a class="nav-link" style="color:orange;" href="#">Link</a></b>
+				<b><a class="nav-link biru" href="#">Link</a></b>
     		</li>
     		
   		</ul>
@@ -54,11 +60,12 @@ h1,h3{
  
  <!--kotak konten--> 
 
- 	<div class="container">
+ 	<div class="container rounded " style="background-color: oldlace;">
   		<div class="row">
     		
   			<!--konten part 1--> 
     		<div class="col-sm-8">
+				<div class="container" style="background-color: white;"> 
       			<h3>Column 1</h3>
                 
      		 	<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -68,21 +75,23 @@ h1,h3{
         		massa placerat interdum. Proin blandit vehicula mauris ullamcorper feugiat. 
         		Curabitur semper ipsum iaculis bibendum interdum. Nulla volutpat lorem et nisi suscipit semper.
 				</p>
-      
+				</div>>
     		</div>
  			<!--konten part 2-->     
-    		<div class="col-sm-4">
+    		<div class="col-sm-4" >
+				<div class="container">
 				  <h3>Column 2</h3>
-				  <img src="pic/foto.png" class="rounded mx-auto d-block" style ="width: 70% "  alt="hmmm">
+				  <img src="pic/foto.png" class="rounded-circle mx-auto d-block" style ="width: 70% "  alt="hmmm">
       			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    		</div>
+			   </div>
+			</div>
     
   		</div>
  	</div>
  
   <!--footer--> 
- 	<div class="jumbotron text-center jumbotron-fluid" style=" background-image:url(pic/footer.png);  background-size: cover;margin-bottom:0" >
+ 	<div class="page-footer font-small pt-4 rounded" style=" background-image:url(pic/footer.png);  background-size: cover;margin-bottom:0" >
     	<div class="row"  >
   		 	<div class="col"></div>
   			<div class="col">
