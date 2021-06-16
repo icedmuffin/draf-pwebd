@@ -7,5 +7,5 @@ nrp : 05211940000104
 ```  
   
 catatan repository :  
-    ini adalah tugas 2 website developement semester 3, matakuliah pemroograman web. dalam project kita belajar membuat UI dengan pure HTML 
+    ini adalah tugas 2 website developement semester 3, matakuliah pemroograman web. dalam project kita belajar membuat simple UI fungsional dengan HTML, CSS, dan js.
    
